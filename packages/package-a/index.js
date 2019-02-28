@@ -1,1 +1,1 @@
-module.exports = 'This is from package-a'
+module.exports = 'This is from package-a!'

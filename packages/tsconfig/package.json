@@ -6,5 +6,8 @@
     "scripts": {},
     "keywords": [],
     "author": "Aaron Morey",
-    "license": "ISC"
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    }
 }

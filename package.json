@@ -11,7 +11,7 @@
     "publish": "npm run build && lerna publish"
   },
   "author": "Aaron <aaron.morey>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^8.0.28",
     "lerna": "^3.13.1",

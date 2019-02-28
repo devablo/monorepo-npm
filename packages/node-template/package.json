@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {},
   "author": "Aaron <aaron.morey>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@devablo/package-a": "^1.0.1",
     "@types/node": "^8.0.28"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
