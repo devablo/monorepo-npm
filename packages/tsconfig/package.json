@@ -9,5 +9,8 @@
     "license": "MIT",
     "publishConfig": {
         "access": "public"
+    },
+    "peerDependencies": {
+        "typescript": "^3.1.0"
     }
 }
