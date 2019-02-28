@@ -1,11 +1,10 @@
 {
     "name": "@devablo/tsconfig",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A base config for ts-config",
     "main": "tsconfig.json",
-    "scripts": {
-    },
+    "scripts": {},
     "keywords": [],
     "author": "Aaron Morey",
     "license": "ISC"
-  }
+}

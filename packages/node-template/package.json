@@ -1,15 +1,13 @@
 {
-    "name": "@devablo/monorepo-node-template",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-    },
-    "author": "Aaron <aaron.morey>",
-    "license": "ISC",
-    "devDependencies": {
-      "@types/node": "^8.0.28",
-      "@devablo/package-a": "1.0.0"
-    }
+  "name": "@devablo/monorepo-node-template",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Aaron <aaron.morey>",
+  "license": "ISC",
+  "devDependencies": {
+    "@devablo/package-a": "^1.0.1",
+    "@types/node": "^8.0.28"
   }
-  
+}
