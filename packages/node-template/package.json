@@ -1,13 +1,13 @@
 {
   "name": "@devablo/monorepo-node-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {},
   "author": "Aaron <aaron.morey>",
   "license": "MIT",
   "devDependencies": {
-    "@devablo/package-a": "^1.0.1",
+    "@devablo/package-a": "^1.0.2",
     "@types/node": "^8.0.28"
   },
   "publishConfig": {
