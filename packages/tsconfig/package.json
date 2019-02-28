@@ -1,6 +1,6 @@
 {
     "name": "@devablo/tsconfig",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "description": "A base config for ts-config",
     "main": "tsconfig.json",
     "scripts": {},

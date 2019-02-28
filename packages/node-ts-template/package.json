@@ -1,6 +1,6 @@
 {
   "name": "@devablo/monorepo-ts-node-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node TS template",
   "main": "src/index.ts",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "@devablo/package-a": "^1.0.3",
-    "@devablo/tsconfig": "^1.0.2",
+    "@devablo/tsconfig": "^1.0.4",
     "@types/node": "^8.0.28",
     "ts-config": "^20.9.0",
     "typescript": "~3.0.0"
