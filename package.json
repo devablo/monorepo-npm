@@ -1,0 +1,24 @@
+{
+  "name": "@devablo/monorepo-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "node-template": "npm run build && node packages/node-template/index.js",
+    "node-ts-template": "npm run build && node packages/node-ts-template/dist/index.js",
+    "build": "npm run bootstrap && lerna run build",
+    "publish": "npm run build && lerna publish"
+  },
+  "author": "Aaron <aaron.morey>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "lerna": "^3.13.1",
+    "ts-config": "^20.9.0",
+    "typescript": "^3.3.3333"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

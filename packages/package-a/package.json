@@ -1,0 +1,11 @@
+{
+    "name": "@devablo/package-a",
+    "version": "1.0.0",
+    "description": "Sample package",
+    "main": "index.js",
+    "scripts": {
+    },
+    "keywords": [],
+    "author": "Aaron Morey",
+    "license": "ISC"
+  }

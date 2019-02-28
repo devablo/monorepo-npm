@@ -1,0 +1,23 @@
+{
+    "name": "@devablo/monorepo-ts-node-template",
+    "version": "1.0.0",
+    "description": "Node TS template",
+    "main": "src/index.ts",
+    "scripts": {
+      "tsc": "tsc",
+      "build": "tsc -p ."
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "author": "Aaron <aaron.morey>",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/node": "^8.0.28",
+      "@devablo/tsconfig": "1.0.0",
+      "@devablo/package-a": "1.0.0",
+      "ts-config": "^20.9.0",
+      "typescript": "~3.0.0"
+    }
+  }
+  
