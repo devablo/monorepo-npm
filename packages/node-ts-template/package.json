@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "tsc": "tsc",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "test": "echo no test"
   },
   "publishConfig": {
     "access": "public"

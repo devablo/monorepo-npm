@@ -1,6 +1,6 @@
 {
-    "name": "@devablo/package-a",
-    "version": "1.0.3",
+    "name": "@devablo/package-example",
+    "version": "1.0.0",
     "description": "Sample package",
     "main": "index.js",
     "scripts": {},
@@ -11,6 +11,8 @@
         "access": "public"
     },
     "dependencies": {
-        "sillyname": "0.0.3"
+        "@devablo/package-a": "^1.0.0",
+        "@devablo/package-b": "^1.0.0",
+        "sillyname": "0.1.0"
     }
 }

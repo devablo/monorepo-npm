@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap --hoist",
+    "test": "jest",
     "node-template": "npm run build && node packages/node-template/index.js",
     "node-ts-template": "npm run build && node packages/node-ts-template/dist/index.js",
     "build": "npm run bootstrap && lerna run build",
@@ -13,12 +14,11 @@
   "author": "Aaron <aaron.morey>",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^8.0.28",
     "lerna": "^3.13.1",
-    "ts-config": "^20.9.0",
-    "typescript": "^3.3.3333"
+    "jest": "^22.4.2"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {}
 }
