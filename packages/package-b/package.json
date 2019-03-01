@@ -11,6 +11,6 @@
         "access": "public"
     },
     "dependencies": {
-        "sillyname": "0.0.3"
+        "sillyname": "^0.1.0"
     }
 }

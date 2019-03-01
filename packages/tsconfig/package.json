@@ -12,5 +12,8 @@
     },
     "peerDependencies": {
         "typescript": "^3.1.0"
+    },
+    "dependencies": {
+        "sillyname": "^0.1.0"
     }
 }

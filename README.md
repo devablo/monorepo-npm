@@ -53,3 +53,11 @@ Put each package under the `packages` directory.
 ### lerna run build
 
 This will run all package.json script build commands
+
+## Adding Package across Projects
+
+`lerna add typescript --scope=*{@devablo/node-ts-template,@devablo/package-example}*`
+
+## Blogs for further reading
+
+* <https://github.com/andrico1234/lerna-monorepo-finisher/tree/master/packages>
