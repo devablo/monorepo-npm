@@ -8,5 +8,5 @@ module.exports = {
       'packages/node-template',
       'packages/node-ts-template'
     ],
-    testURL: "http://localhost/"
+    testEnvironment: 'node'
 };
