@@ -13,7 +13,6 @@
     "dependencies": {
         "@devablo/package-a": "^1.0.5",
         "@devablo/package-b": "^1.0.5",
-        "sillyname": "0.1.0",
-        "typescript": "~3.0.0"
+        "sillyname": "0.1.0"
     }
 }
