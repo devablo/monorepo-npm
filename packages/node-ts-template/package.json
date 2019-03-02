@@ -1,5 +1,5 @@
 {
-  "name": "@devablo/monorepo-ts-node-template",
+  "name": "@devablo/node-ts-template",
   "version": "1.0.4",
   "description": "Node TS template",
   "main": "src/index.ts",
@@ -19,5 +19,8 @@
     "@types/node": "^8.0.28",
     "ts-config": "^20.9.0",
     "typescript": "~3.0.0"
+  },
+  "dependencies": {
+    "typescript": "3.3.1"
   }
 }

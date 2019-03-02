@@ -57,6 +57,7 @@ This will run all package.json script build commands
 ## Adding Package across Projects
 
 `lerna add typescript --scope=*{@devablo/node-ts-template,@devablo/package-example}*`
+`lerna add typescript@3.3.1 --scope=@devablo/node-ts-template`
 
 ## Blogs for further reading
 
