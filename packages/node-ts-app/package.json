@@ -1,7 +1,7 @@
 {
-  "name": "@devablo/node-ts-template",
+  "name": "@devablo/node-ts-app",
   "version": "1.0.5",
-  "description": "Node TS template",
+  "description": "Node TS app",
   "main": "src/index.ts",
   "scripts": {
     "tsc": "tsc",
